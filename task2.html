@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Management Tool</title>
+
+ <link rel="stylesheet" href="style.css" />
+<!-- Task Management Section -->
+<section class="task-management">
+    <h2>Task Management</h2>
+    <div class="task-list">
+      <h3>My Tasks :-</h3>
+      <ul>
+        <li>
+          <div class="task-info">
+            <h4>Design user interface:</h4>
+            <p class="task-due-date">Due on: June 1, 2023</p>
+            <p class="task-assignee">Assigned to: JohnWick</p>
+          </div>
+          <div class="task-actions">
+            <button class="btn btn-primary">Start Task</button>
+            <button class="btn btn-secondary">Mark Complete</button>
+          </div>
+        </li>
+        <!-- Additional task items... -->
+      </ul>
+    </div>
+    <div class="task-list">
+      <h3>Assigned Tasks :-</h3>
+      <ul>
+        <li>
+          <div class="task-info">
+            <h4>Develop user authentication system:</h4>
+            <p class="task-due-date">Due on: June 15, 2023</p>
+            <p class="task-assignee">Assigned by: Sherlock</p>
+          </div>
+          <div class="task-actions">
+            <button class="btn btn-primary">Accept Task</button>
+            <button class="btn btn-secondary">Decline Task</button>
+          </div>
+        </li>
+        <!-- Additional task items... -->
+      </ul>
+    </div>
+    <div class="create-task">
+      <h3>Create New Task</h3>
+      <form action="#" method="post">
+        <label for="taskName">Task Name:</label>
+        <input type="text" id="taskName" name="taskName">
+        <br>
+        <label for="assignedTo">Assign To:</label>
+        <select id="assignedTo" name="assignedTo">
+          <option>select</option>
+          <option value="Sandy">Sandy</option>
+          <option value="John">John</option>
+          <option value="Wick">Wick</option>
+          <option value="cruiser">cruiser</option>
+        </select><br>
+        <label for="dueDate">Due Date:</label>
+        <input type="date" id="dueDate" name="dueDate">
+        <br>
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description"></textarea><br>
+        <input type="submit" value="Create Task">
+      </form>
+    </div>
+  </section>
+</body>
+</html>

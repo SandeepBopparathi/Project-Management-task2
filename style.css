@@ -1,0 +1,121 @@
+body{
+    background-color: lightpink;
+  }
+  section{
+    color: rgb(6, 66, 245);
+    border: 3px solid black;
+    background:lightgreen;
+    margin-bottom:4rem;
+   
+  }
+  .create-task{
+    color: rgb(255, 81, 0);
+  }
+    /* Task Management Section */
+.task-management {
+  margin-top: 50px;
+}
+.task-management h2{
+  text-align:center;
+  font-size:50px; 
+  color:black;
+}
+.task-list {
+  margin-bottom: 30px;
+}
+
+.task-list h3 {
+  margin-bottom: 10px;
+  color:black;
+  font-size:30px;
+}
+.task-list ul {
+  list-style: none;
+  padding: 35px 300px;
+  margin: 0;
+}
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 1px 25px;
+  color:blue;
+  background:white;
+}
+
+.task-list li:hover {
+  background-color: #0affeb;
+}
+.task-info {
+  flex-grow: 1;
+}
+.task-info h4 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.task-due-date, .task-assignee {
+  font-size: 35px;
+  font-weight:900;
+  color: rgb(255, 0, 221);
+  margin-bottom: 1px;
+  padding: 20px 20px;
+}
+.task-actions button {
+  margin-bottom: 100px;
+  
+}
+.create-task h3{
+  font-size:25px;
+}
+.create-task form {
+  display: flex;
+  flex-direction: column;
+}
+.create-task select{
+  margin-left:2px;
+  margin-right:40px;
+  margin-bottom:10px;
+  font-size:20px;
+  padding:5px;
+}
+.create-task label, input , name {
+  font-size:20px;
+  margin-left:2px;
+  margin-right:40px;
+}
+.create-task label {
+  font-size:20px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.create-task input, .create-task textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #a5469d;
+  padding: 25px 300px;
+}
+.create-task textarea {
+  height: 100px;
+}
+.create-task input[type="submit"] {
+  padding: 10px;
+  background-color: #fbff00;
+  color: black;
+  text-align:center;
+  font-size:30px;
+  font-weight:1000;
+  border: none;
+  cursor: pointer;
+}
+  
+.create-task input[type="submit"]:hover {
+  background-color: #0f3cf0;
+  padding: 25px 300px;
+}
